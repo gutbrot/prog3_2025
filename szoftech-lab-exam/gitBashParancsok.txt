@@ -1,0 +1,18 @@
+git commit			-	új commit
+git branch <név>		-	új <név> branch
+git checkout <név>		-	átváltás a <név> branchre/ head lecsatolása és átállítása <név> commitra
+git checkout <név>^		-	<név> ősére mutat (<név>^^ -> ős őse)
+git checkout <név>~<number>	-	
+git merge <név>			- 	a <név> branchet beolvasztja az aktuális branchbe
+git rebase <név>		-	lineárissá olvasszuk a brancheket
+git branch -f <név> <cím>	-	branch mozgatása cmíre: relatív vagy hash
+git reset <cím>			-	lokális commit törlése
+git revert <cím>		-	pusholt commit törlése??	
+git cherry-pick <commit> ...	-	commit-okat másol a headhez
+git rebase -i <commit>
+
+git clone
+git pull
+git fakeTeamwork
+git push
+git pull --rebase
